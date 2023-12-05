@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/pagamento.css">
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+  </style> 
+  <title>Payment</title>
+</head>
+
+<header>
+  <div id="header-container"></div>
+</header>
+
+<body>
+  <div class="breadcrumb ">
+    <a class="Passado" href="./index.html">Home ></a>
+    <a class="Passado" href="./Produtos.html"> Products ></a>
+    <a class="Passado" href="./pgProduto.html"> Selected products ></a>
+    <a class="Passado" href="./cart.html">Cart ></a>
+    <a class="Atual" href="./pagamento.html">Payment</a>
+</div>
+  <main>
+
+  
+    <section class="pagamento">
+      <h2>Payment methods</h2>
+      
+      <div class="cartao">
+        <h2>
+          <input type="checkbox" id="checkbox1"><label for="checkbox1" class="checkbox-label"></label>
+          Credit card</h2>
+        
+        <p>Card number</p>
+        <input type="email">
+        <p>Name on Card</p>
+        <input type="password">
+        <div class="validadeCVV">
+          <p>Validity</p> 
+          <p>CVV</p>
+          <input type="password">
+          <input type="password">
+        </div>
+      </div>
+
+      <div class="ticket">
+        <h2>
+          <input type="checkbox" id="checkbox2"><label for="checkbox2" class="checkbox-label"></label>
+          Ticket</h2>
+      </div>
+
+      <div class="pix">
+        <h2>
+          <input type="checkbox" id="checkbox3"><label for="checkbox3" class="checkbox-label"></label>
+          PIX</h2>
+      </div>
+
+
+    </section>
+
+    
+    
+    <section id="summary">
+      <h2>Order Summary</h2>
+      <p>Products price</p>
+      <p>R$ 76,99</p>
+      
+      <div class="total">
+        <h2>Total</h2>
+        <h2 id="totalAmount">R$ 76,99</h2>
+      </div>
+      
+      <div class="bttms">
+        <a class="finalizeOrder" href="./pgPedidoFinal.html">Finalize order</a>
+        <a class="chooseMore" href="./Produtos.html">Choose more products</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div id="footer-container"></div>
+  </footer>
+  
+  <script src="./Js/cart.js"></script>
+  <script src="./Js/header.js"></script>
+  <script src="./Js/footer.js"></script>  
+  
+</body>
+</html>

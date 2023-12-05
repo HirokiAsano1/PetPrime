@@ -1,0 +1,226 @@
+body
+{
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+  display: grid;
+  justify-items: center;
+  box-sizing: border-box;
+}
+header
+{
+  width: 100%;
+}
+h2
+{
+    margin: 0px;
+}
+.breadcrumb
+{
+    margin-top: 20px;
+    font-size: 18px;
+    
+}
+.Passado
+{
+    color: #2EBF32;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right:7px;
+    
+}
+
+.Atual 
+{
+    color:#247439;
+    text-decoration: none;
+    font-weight: bold;
+}
+.Subtitulo
+{
+    color:#247439 ;
+    font-size: 18pt;
+    position: relative;
+    margin-bottom: -15px;
+    margin-top: 60px;
+    margin-left: 220px;
+}
+
+.Grid-Principal
+{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.Itens
+{   
+    display: flex;
+    gap: 50px;
+    
+}
+
+.Item
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 30px;
+    max-width: 300px;
+    justify-items: center;
+   
+}
+
+#Sale img
+{
+    width: 260px;
+}
+.Item img 
+{   
+    width: 180px;
+    grid-column:1/3;
+  height: 290px;
+    
+}
+.Item p 
+{
+    grid-column:1/3;
+    font-size:1.1rem;
+    line-height: 1.2rem;
+   
+}
+.Item a
+{   text-decoration: none;
+    color:white ;
+    padding: 8px 40px;
+    background-color: #2EBF32;
+    justify-self: center;
+    border-radius: 8px;
+    font-weight: bold;
+   
+}
+.Item a:hover
+{
+    background-color: #247439;
+}
+.Item span
+{   display: grid;
+    font-weight: bold;
+    align-content:center;
+    font-size:1.2rem;
+}
+
+.Subtitulo::before
+{
+    content: '';
+    width:1px ;
+    height: 1400px;
+    background: #247439;
+    position: absolute;
+    left: -15px;
+    top: 50px;
+}
+
+.Filtros h3
+{
+    color: #247439;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    margin-top: 15px;
+   
+}
+
+.Filtros
+{
+    margin-right: 20px;
+    margin-top: -25px;
+}
+
+
+
+.Filtros a 
+{
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+.Filtros a:hover
+{
+    border-bottom: 1px solid black;
+}
+
+footer
+{
+    width: 100%;
+}
+
+@media (max-width:1200px)
+{
+    .Subtitulo 
+    {
+        display: grid;
+        justify-content: center;
+        margin-right: 100px;
+        border-bottom: 1px solid #247439;
+    }
+  .Itens
+  {   
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+  }
+  .Subtitulo::before
+  {
+    display: none;
+  }
+  .Filtros
+  {
+      margin-left: 20px;
+      
+  }
+    .breadcrumb
+    {
+       margin-left: 20px;
+        
+    }
+
+}
+@media (max-width:900px){
+    .Item
+    {
+      max-width: 240px;
+    }
+    .Item p
+    {
+        font-size:14px;
+    }
+    .Item span
+    {
+        font-size:1rem;
+    }
+    .Item img 
+    {
+        width: 140px;
+        height: 220px;
+    }
+
+    #Sale img
+    {
+        width: 210px;
+    }
+
+    .Subtitulo 
+    {
+        font-size: 1.3rem;
+        margin-right: 80px;
+    }
+    .Item a
+    {
+      padding: 6px 40px;
+      font-size: 14px;
+    }
+    .Filtros h3
+    {
+        font-size: 1.1rem;
+    }
+  
+}

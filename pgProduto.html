@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/pgproduto.css">
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+  </style>
+  <title>PaginaProduto</title>
+</head>
+
+<body>
+  <header>
+    <div id="header-container"></div>
+  </header>
+
+    <div class="breadcrumb ">
+      <a class="Passado" href="./index.html">Home ></a>
+      <a class="Passado" href="./Produtos.html"> Products ></a>
+      <a class="Atual" href="./Produtos.html"> Selected products</a>
+  </div>
+  <main>
+
+  <div id="galeria">
+    <ul>
+      <li><img src="./assets/Foto1.png" alt=""></li>
+      <li><img src="./assets/Foto2.png" alt=""></li>
+      <li><img src="./assets/Foto3.png" alt=""></li>
+    </ul>
+  </div>
+  
+  <img id="principal" src="./assets/Foto1.png" alt="Food Adult Dogs1">
+  
+  <div class="descricao">
+    <h1>Royal Canin Club Performance Adult Dogs Food</h1>
+    <h3>Code: 20001310000158</h3>
+    <p> <b>Information:</b><br>
+      <br>
+      Suitable for adult dogs; <br>
+      Protein mix; <br>
+      Stronger muscles;<br>
+      Reduction of fecal odor;<br>
+      More yield per kilo;<br>
+      Health and vitality;<br>
+      Free from artificial flavors and colors.</p><br>
+      
+      <div class="precoBotoes">
+        <span class="preco">
+          <h1>R$ 76,99</h1>
+          <h3>or 2x of R$ 38,50 interest-free</h3> 
+        </span>
+        
+        <div class="botoes">
+          <div class="quantidade">
+            <button id="decreaseBtn">-</button>
+            <input type="text" id="quantityInput" value="1">
+            <button id="increaseBtn">+</button>
+          </div> 
+          
+          <a class="addCart" href="./cart.html"><img src="./assets/CartWhite.svg" alt=""> ADD TO CART</a>  <!--Adicionar o link do carrinho aqui-->
+        </div>
+      </div>
+      
+    </div>
+  </main>
+
+  <section>
+    <div class="Subtitulo">
+      <img src="./assets/Pata.svg" alt="">
+       <h2 >You might like</h2>
+   </div>
+  <div class="Green-Line"> </div>
+  <div class="Itens">
+      <div class="Item">
+          <img src="./assets/01.png" alt="">
+          <p>Golden Special Food for Adult Dogs Chicken and Beef Flavor</p>
+          <span>R$ 147,24</span>
+          <a href="#">BUY</a>
+      </div>
+      <div class="Item">
+          <img src="./assets/0201 (1).png" alt="">
+          <p>Royal Canin Club Performance Adult Dog Food</p>
+          <span>R$ 76,99</span>
+          <a href="#">BUY</a>
+      </div>
+      <div class="Item">
+          <img src="./assets/0302 (1).png" alt="">
+          <p>Golden Food for Castrated Adult Cats Salmon Flavor</p>
+          <span>R$ 31,99 </span>
+          <a href="#">BUY</a>
+      </div>
+      <div class="Item">
+          <img src="./assets/0401 (1).png" alt="">
+          <p>Golden Food for Adult Cats Meat Flavor</p>
+          <span>R$ 27,50</span>
+          <a href="#">BUY</a>
+      </div>
+  </div>
+  </section>
+
+  <footer>
+    <div id="footer-container"></div>
+  </footer>
+  
+  <script src="./js/pgProduto.js"></script>
+  <script src="./js/header.js"></script>
+  <script src="./js/footer.js"></script>  
+</body>
+</html>
+

@@ -1,0 +1,247 @@
+body{
+    font-family: "Inter", sans-serif;
+}
+
+footer, header {
+    width: 100%;
+}
+
+.breadcrumb
+{
+    margin-top: 20px;
+    font-size: 18px;
+    
+}
+.Passado
+{
+    color: #2EBF32;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right:7px;
+    
+}
+
+.Atual 
+{
+    color:#247439;
+    text-decoration: none;
+    font-weight: bold;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    max-width: 1280px;
+    margin:  0 auto;
+}
+
+.forms{
+    background: rgb(203, 209, 203);
+    width: 500px;
+    margin-top: 100px;
+    padding: 10px 30px 70px 30px;
+    border-radius: 30px;
+    border: solid 1px rgb(16, 212, 16)
+}
+
+input{
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    border: white;
+}
+.CEP {
+    width: 150px;
+}
+.digito{
+    width: 85px;
+}
+.cidade{
+    width: 240px;
+}
+.estado{
+    width: 250px;
+}
+
+.Botao{
+    display: inline-flex;
+    background: rgb(10, 190, 10);
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-left: 150px;
+    text-decoration: none;
+    color: white;
+}
+
+.Botao:hover{
+    background: green;
+}
+
+.grid {
+    display: flex;
+    gap: 5px;
+}
+
+@media (max-width:1200px)
+{
+    main
+    {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .Imgs-Final
+    {
+        max-width:80%;
+    }
+}
+
+@media (max-width:800px)
+{
+    .Imgs-Final
+    {
+        max-width:60%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

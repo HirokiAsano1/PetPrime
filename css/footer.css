@@ -1,0 +1,108 @@
+#Footer {
+    display: flex;
+    align-items: center;
+    width:100% ;
+    background-color: #247439;
+    height: 290px;
+    margin-top: 100px;
+    gap: 150px;
+    justify-content: center;
+  }
+  
+  .links-footer {  
+    display: grid;
+    gap: 5px;
+  }
+  
+  .links-footer p {
+      color: white;
+      font-size: 1.4rem;
+      margin: 0px;
+  }
+  
+  .links-footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .links-footer a:hover{
+    border-bottom: 2px solid white;
+  }
+  
+  .localização-footer{
+    display: grid;
+    gap: 10px;
+    
+  }
+  
+  .localização-footer p{
+    color: white;
+    font-size: 1.3rem;
+    margin: 0px;
+  }
+  
+  .RedesSociais-footer{
+    display: grid;
+    gap: 10px;
+  }
+  
+  .RedesSociais-footer p{
+    color: white;
+    font-size: 1.3rem;
+    margin: 0px;
+  }
+  
+  .Redes{
+    display: flex;
+    gap: 20px;
+  }
+  
+  @media (max-width:1200px)
+  {
+    #Footer
+    {
+      gap: 50px;
+    }
+
+    .localização-footer p
+    {
+      font-size: 1rem;
+    }
+
+    .links-footer a
+    {
+      font-size: 1rem;
+    }
+
+    .imgsFooter
+    {
+      width: 250px;
+    }
+  }
+
+  @media (max-width:800px)
+  {
+    #Footer {
+      flex-wrap: wrap;
+    }
+    .Redes
+    {
+      flex-wrap: wrap;
+
+    }
+    .RedesSociais-footer p
+    {
+      font-size: 1rem;
+    }
+    .imgsFooter
+    {
+      width: 200px;
+    }
+    .links-footer p
+    {
+      font-size: 1rem;
+    } 
+   
+  }
