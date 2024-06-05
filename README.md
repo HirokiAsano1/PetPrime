@@ -49,12 +49,17 @@ A aplicação backend está hospedada temporariamente no seguinte link:
 https://cocacola-api-production.up.railway.app
 
 Caso a hospedagem tenha terminado, utilize http://localhost:8080 para as requisições.
-
+Configure o banco de dados como citado a cima 
 e siga esses passos para integrar com front :
+
 1.git clone https://github.com/DaviCalebe/solar-coca-cola
+
 2. cd price-management-api
-  Compile e execute a aplicação
-3. abra o diretorio price-management-app
+
+ Compile e execute a aplicação
+  
+4. abra o diretorio price-management-app
+
   ![image](https://github.com/HirokiAsano1/CocaCola-api/assets/78913393/d0d90b96-a1f9-4fab-be84-da1306593b61)
   
  nesses tres arquivos troque baseURl atual por http://localhost:8080
