@@ -56,4 +56,5 @@ e siga esses passos para integrar com front :
   Compile e execute a aplicação
 3. abra o diretorio price-management-app
   ![image](https://github.com/HirokiAsano1/CocaCola-api/assets/78913393/d0d90b96-a1f9-4fab-be84-da1306593b61)
+  
  nesses tres arquivos troque baseURl atual por http://localhost:8080
