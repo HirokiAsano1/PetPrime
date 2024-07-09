@@ -16,7 +16,6 @@ Este é um projeto de ecommerce desenvolvido para um pet shop localizado na regi
   
 ## Estrutura do Projeto
 
-/
 |-- index.html # Página inicial
 |-- produtos.html # Página de catálogo de produtos
 |-- cart.html # Página do carrinho de compras
@@ -33,7 +32,6 @@ Este é um projeto de ecommerce desenvolvido para um pet shop localizado na regi
 |-- js/
 | |-- main.js # Scripts principais do site
 | |-- cart.js # Scripts específicos para o carrinho de compras
-| |-- auth.js # Scripts de autenticação
 
 ## Como Executar o Projeto
 O produto está hospedado no própio github https://hirokiasano1.github.io/PetPrime/
