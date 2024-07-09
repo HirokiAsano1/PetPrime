@@ -14,25 +14,6 @@ Este é um projeto de ecommerce desenvolvido para um pet shop localizado na regi
 - **Carrinho de Compras**: Permite aos usuários adicionar produtos ao carrinho, visualizar o resumo das compras e finalizar a compra.
 - **Cadastro e Login de Usuários**: Sistema de autenticação que permite aos usuários criar uma conta e fazer login para gerenciar suas compras.
   
-## Estrutura do Projeto
-
-|-- index.html # Página inicial
-|-- produtos.html # Página de catálogo de produtos
-|-- cart.html # Página do carrinho de compras
-|-- logincadastro.html # Página de login e cadastro
-|-- cadastro.html # Página de cadastro (separada)
-|-- pagamento.html # Página de pagamento
-|-- pgPedidoFinal.html # Página de confirmação do pedido
-|-- pgProduto.html # Página de detalhes do produto
-|-- emptyCart.html # Página de carrinho vazio
-|-- header.html # Cabeçalho comum a todas as páginas
-|-- footer.html # Rodapé comum a todas as páginas
-|-- css/
-| |-- styles.css # Estilos principais do site
-|-- js/
-| |-- main.js # Scripts principais do site
-| |-- cart.js # Scripts específicos para o carrinho de compras
-
 ## Como Executar o Projeto
 O produto está hospedado no própio github https://hirokiasano1.github.io/PetPrime/
 mas se preferir pode executar o projeto no seu repositorio local
