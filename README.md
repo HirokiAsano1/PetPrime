@@ -1,65 +1,53 @@
-# PROJETO SolarCocaCola
+# PetShop Ecommerce
 
-Este projeto é uma aplicação Spring Boot que inclui funcionalidades de CRUD para clientes, CRUD Para Produtos , CRUD Para Promoções e relacionamento das entidades Clientes e Produtos.
+Este é um projeto de ecommerce desenvolvido para um pet shop localizado na região de Pernambuco. O objetivo deste projeto é fornecer uma plataforma online para o pet shop que anteriormente não tinha esse tipo de serviço, facilitando a compra de produtos para os clientes.
+
+## Tecnologias Utilizadas
+
+- **HTML**: Utilizado para estruturar o conteúdo das páginas.
+- **CSS**: Utilizado para estilizar o layout e tornar a interface visualmente atraente.
+- **JavaScript**: Utilizado para adicionar interatividade e dinamismo ao site.
 
 ## Funcionalidades
 
-Adicionar, atualizar, deletar, listar clientes , adicionar produtos , visuazliar produtos e remover produdos de  clientes.
-Adicionar, atualizar, deletar, listar clientes de  Produtos.
-Adicionar, atualizar, deletar, listar clientes de  Promoções.
-
-## Requisitos
-
-Java 17 ou superior
-
-Maven
-
-MySQL
-
-Para executar a aplicação no Visual Studio Code, você precisa instalar a extensão "Debugger for Java"
-
-## Configuração do Banco de Dados
-Obs : O banco está hospedado temporariamente , se a hospegagem terminar ou se optar usar seu propio banco de dados , utilize esses passo a passo :
-
-Crie um banco de dados MySQL e configure as credenciais no arquivo application.propeties , localizado no diretorio resources:
-
-spring.datasource.url=jdbc:mysql://localhost:3306/nome_do_seu_banco_de_dados
-
-spring.datasource.username=seu_usuario
-
-spring.datasource.password=sua_senha
-
-spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-
-spring.jpa.show-sql=true
-
-spring.jpa.properties.hibernate.format_sql=true
-
-spring.jpa.open-in-view=true
-
-spring.jpa.hibernate.ddl-auto=update
-
-## Hospedagem 
-
-O projeto Está hospedado nesse link:
-https://gestaodepreco-solarcocacola.onrender.com/
-
-A aplicação backend está hospedada temporariamente no seguinte link:
-
-https://cocacola-api-production.up.railway.app
-
-Caso a hospedagem tenha terminado, utilize http://localhost:8080 para as requisições.
-Configure o banco de dados como citado a cima 
-e siga esses passos para integrar com front :
-
-1.git clone https://github.com/DaviCalebe/solar-coca-cola
-
-2. cd price-management-api
-
- Compile e execute a aplicação
+- **Catálogo de Produtos**: Exibição de produtos disponíveis para compra, categorizados por tipo (ração, brinquedos, acessórios, etc.).
+- **Carrinho de Compras**: Permite aos usuários adicionar produtos ao carrinho, visualizar o resumo das compras e finalizar a compra.
+- **Cadastro e Login de Usuários**: Sistema de autenticação que permite aos usuários criar uma conta e fazer login para gerenciar suas compras.
   
-4. abra o diretorio price-management-app
+## Estrutura do Projeto
 
-  ![image](https://github.com/HirokiAsano1/CocaCola-api/assets/78913393/d0d90b96-a1f9-4fab-be84-da1306593b61)
-  
- nesses tres arquivos troque baseURl atual por http://localhost:8080
+/
+|-- index.html # Página inicial
+|-- produtos.html # Página de catálogo de produtos
+|-- cart.html # Página do carrinho de compras
+|-- logincadastro.html # Página de login e cadastro
+|-- cadastro.html # Página de cadastro (separada)
+|-- pagamento.html # Página de pagamento
+|-- pgPedidoFinal.html # Página de confirmação do pedido
+|-- pgProduto.html # Página de detalhes do produto
+|-- emptyCart.html # Página de carrinho vazio
+|-- header.html # Cabeçalho comum a todas as páginas
+|-- footer.html # Rodapé comum a todas as páginas
+|-- css/
+| |-- styles.css # Estilos principais do site
+|-- js/
+| |-- main.js # Scripts principais do site
+| |-- cart.js # Scripts específicos para o carrinho de compras
+| |-- auth.js # Scripts de autenticação
+
+## Como Executar o Projeto
+O produto está hospedado no própio github https://hirokiasano1.github.io/PetPrime/
+mas se preferir pode executar o projeto no seu repositorio local
+1. **Clone o Repositório**:
+    ```bash
+    git clone https://github.com/HirokiAsano1/PetPrime.git
+    ```
+
+2. **Abra o arquivo `index.html` em seu navegador** para visualizar o site.
+
+## Melhorias Futuras
+
+- **Integração com um sistema de gerenciamento de estoque** para manter o controle de inventário em tempo real.
+- **Implementação de notificações por email** para confirmar pedidos e informar sobre promoções.
+- **Otimização para dispositivos móveis** para garantir uma experiência de usuário consistente em diferentes telas.
+
